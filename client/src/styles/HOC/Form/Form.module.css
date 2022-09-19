@@ -1,0 +1,12 @@
+.form_wrapper {
+    margin-top: 15px;
+}
+
+.form_wrapper .materialButton {
+    width: 15%;
+}
+
+.form_wrapper .form_control {
+    width: 65%;
+    margin-bottom: 15px;
+}

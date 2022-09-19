@@ -1,0 +1,43 @@
+.user_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.user_wrapper .user {
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.user_wrapper .user ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.user_wrapper .user ul>li {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-bottom: 2px solid #838181;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.user_wrapper .user ul>li:hover {
+    background-color: rgb(7, 204, 215);
+    color: #fff;
+}
+
+.user_wrapper .user ul>li:last-child {
+    border-bottom: none;
+}
+
+.user_wrapper .user ul>li span:first-child {
+    margin-right: 10px;
+}
+
+.user_wrapper .user ul>li span.biography {
+    word-break: break-all;
+}
